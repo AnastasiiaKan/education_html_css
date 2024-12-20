@@ -1,0 +1,71 @@
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  bottom: border-box;
+  border: 1px solid black;
+  margin-top: 100px;
+  background: white;
+  position: relative;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.round {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  top: -45px;
+  left: calc(300px - 190px);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 80px;
+  width: 40px;
+  align-items: center;
+}
+
+.title {
+  color: black;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.text {
+  color: black;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+}
+.box {
+  margin-top: 40px;
+  border: 1px solid black;
+  height: 80px;
+  width: 200px;
+  margin-left: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxText {
+  color: black;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
